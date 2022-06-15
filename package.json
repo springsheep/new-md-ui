@@ -13,6 +13,7 @@
       "@wytxer/shepherd-vue": "^1.0.0",
       "@wytxer/style-utils": "^1.0.5",
       "ant-design-vue": "^1.7.8",
+      "antdv-h-ui": "0.0.3",
       "axios": "^0.24.0",
       "core-js": "^3.20.2",
       "highlight.js": "^9.11.0",

@@ -4,10 +4,9 @@
  * @Author: 张鹏
  * @Date: 2022-06-10 09:30:42
  * @LastEditors: 张鹏
- * @LastEditTime: 2022-06-10 12:09:58
+ * @LastEditTime: 2022-06-15 17:21:24
  */
 const path = require('path')
-const moment = require('moment')
 
 function resolve(dir) {
   return path.join(__dirname, '../../', dir)
@@ -138,12 +137,12 @@ module.exports = {
     // https://v1.vuepress.vuejs.org/zh/plugin/official/plugin-medium-zoom.html
     // ['@vuepress/medium-zoom', { selector: 'img' }]
     // 最后更新时间
-    ['@vuepress/last-updated', {
-      transformer: (timestamp, lang) => {
-        moment.locale(lang)
-        return moment(timestamp).format('YYYY-MM-DD HH:mm:ss')
-      }
-    }]
+    // ['@vuepress/last-updated', {
+    //   transformer: (timestamp, lang) => {
+    //     moment.locale(lang)
+    //     return moment(timestamp).format('YYYY-MM-DD HH:mm:ss')
+    //   }
+    // }]
   ],
   chainWebpack: (config, isServer) => {
     config.resolve.alias

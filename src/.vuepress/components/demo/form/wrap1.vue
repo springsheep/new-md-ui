@@ -1,14 +1,14 @@
 <!--
  * @Author: your name
  * @Date: 2021-06-02 17:16:34
- * @LastEditTime: 2022-06-10 11:43:57
+ * @LastEditTime: 2022-06-15 17:24:16
  * @LastEditors: 张鹏
  * @Description: In User Settings Edit
  * @FilePath: /qrcm/src/views/OpenIssueList/components/questionBaseInfo.vue
 -->
 
 <script>
-import HFormpage from "../../../component/src/components/ProForm";
+import HFormpage from "antdv-h-ui/src/mixins/form.vue";
 export default {
   mixins: [HFormpage],
   data() {

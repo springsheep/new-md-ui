@@ -4,7 +4,7 @@
  * @Author: 张鹏
  * @Date: 2022-06-10 09:30:42
  * @LastEditors: 张鹏
- * @LastEditTime: 2022-06-10 10:23:10
+ * @LastEditTime: 2022-06-15 17:14:41
  */
 import VueHighlight from 'vue-highlight.js'
 import Antd from 'ant-design-vue'
@@ -44,7 +44,7 @@ export default ({
         Vue.use(m.default)
       })
 
-      import('./component/src/index').then(m => {
+      import('antdv-h-ui').then(m => {
         Vue.use(m.default)
       })
     }

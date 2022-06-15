@@ -4,7 +4,7 @@
  * @Author: 张鹏
  * @Date: 2022-04-20 09:06:16
  * @LastEditors: 张鹏
- * @LastEditTime: 2022-06-10 11:56:02
+ * @LastEditTime: 2022-06-15 17:23:13
 -->
 <template>
   <div class="list">
@@ -52,7 +52,7 @@
 </template>
 
 <script>
-import table from "../../../component/src/mixins/table";
+import table from "antdv-h-ui/src/mixins/table";
 console.log(table);
 const queryTables = () => {
   return new Promise((resolve) => {
